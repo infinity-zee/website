@@ -7,7 +7,11 @@
     </head>
     <body>
         <script>
-            document.location("http://[2401:4900:1987:a00d:c7e:3a3f:4203:fccd]/");
+            setTimeout(redirect, 3000);
+
+            function redirect(){
+                document.location("http://[2401:4900:1987:a00d:c7e:3a3f:4203:fccd]/");
+            }
         </script>
     </body>
 </html>
