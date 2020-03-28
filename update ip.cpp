@@ -43,6 +43,6 @@ int main()
     "</body>\n"
     "</html>\n";
 
-
-    std::cin.get();
+    htfile.close();
+    return 1;
 }
